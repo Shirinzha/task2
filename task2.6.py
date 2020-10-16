@@ -1,6 +1,7 @@
-# num=[1,2,3,4]
-# num2(sum(num))
-# print(int(num)*)
-num_list = [1,2,3,4,5]
-reduce=(lambda(num_list))
-print(num_list)
+numbers=list(range(1,10))
+print(sum(numbers))
+
+num=1
+for num1 in numbers:
+    num*=num1
+print(num)    
